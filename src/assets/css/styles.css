@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  width: 100%;
+}
+
+.toggle-img img {
+  height: 50px;
+  width: 50px;
+}
+
+.rotateImg img {
+  transform: rotate(90deg);
+}
+
+.list-container {
+  height: calc(100vh - 70px);
+  overflow-y: scroll;
+}
